@@ -14,7 +14,7 @@ call('R2')
 
                             //o valor padrão pode ser uma chamada de função.
 function inc (speed: number, inc:number=1):number{
-  return speed + inc:
+  return speed + inc;
 }
 
 console.log(`inc(5,1) = ${inc(5,1)}`)
